@@ -12,19 +12,25 @@ print(example_string3.strip("*"))
 
 # Write a code to return "Hello my name is Jack"
 example_string4 = "hello my name is jack"
-
+examp1 = "hello my name is "
+examp2 = "jack"
+print(examp1.capitalize() + "" + examp2.capitalize())
 
 # Write a code to return formatted string "Hello, my name is Jack"
 var1 = "jack"
 var2 = "hello"
 var3 = "MY NAME IS"
-print((var2.capitalize()) + " " + (var3.lower()) +" "+ (var1.capitalize()).capitalize())
+print((var2.capitalize()) + "," + (var3.lower()) +" "+ (var1.capitalize()).capitalize())
 
 
 # Write a code to return byte_string text value
 byte_string = b"\316\273"
-print(byte_string.decode('utf-16')) # не ясно
+print(byte_string.decode()) # не ясно
 
 # Write a code to return True if cost is greater than 500$
 example_string5 = "It cost me 1000.00$"
 print(example_string5.replace("1000", "500"))
+
+
+
+
