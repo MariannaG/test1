@@ -41,3 +41,4 @@ print(string_sample1.count("o", 5, 10)) #skolko bukv o vstre4aetsja v stroke
 #metod8
 print(string_sample1.find("world"))#naiti slovo v indexe
 
+
