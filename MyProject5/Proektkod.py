@@ -76,7 +76,7 @@ while condition:
         else:
             print("Wasnt born in Estonia")
         print(f"ID: {user_input}")
-        print(f"Gender: {user_input}")
+        print(f"Gender: {gender_id}")
         print(f"Date of birth:{bd_num}.{bm_num}.{by_id}{by_num}")
         print(f"Region: {region}")
         print(f"Check num: {check_num}")
