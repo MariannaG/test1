@@ -1,7 +1,6 @@
 while True:
     try:
         user_input = input("Please enter ID code: ")
-        int(user_input)
         if len(user_input) != 9:
             raise UserWarning
     except ValueError:

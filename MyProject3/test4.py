@@ -31,8 +31,8 @@ print(courses)
 #courses.pop(0)
 #print(courses)
 
-#courses.reverse() # elementq s konza
-#print(courses)
+courses.reverse() # elementq s konza
+print(courses)
 
 #courses.sort()#sortiruet po alfavitu unicoda
 #print(courses)
